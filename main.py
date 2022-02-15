@@ -3,7 +3,7 @@ import requests
 def main():
        url="https://www.google.com"
        headers={"Users-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
-       resp=request.get(url=url,headers=headers)
+       resp=requests.get(url=url,headers=headers)
   #爬取内容导出在0.txt中，使用二进制 
        with open("0.txt","wb+") as f:
               f.write(resp.content)
