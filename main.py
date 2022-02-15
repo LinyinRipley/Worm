@@ -8,7 +8,7 @@ def main():
        with open("0.txt","wb+") as f:
               f.write(resp.content)
        pass
-if__name___=='__main___':
+if__name__=='__main__':
        main()
                
     
