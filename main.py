@@ -6,7 +6,7 @@ def main():
   #爬取内容导出在0.txt中，使用二进制 
        with open("0.txt","wb+") as f:
               f.write(resp.content)
-    pass
+       pass
 if__name___=='__main___':
        main()
                
