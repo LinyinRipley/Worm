@@ -1,4 +1,5 @@
 import requests
+#简单爬取页面
 def main():
        url="https://www.google.com"
        headers={"Users-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
