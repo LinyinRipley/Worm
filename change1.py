@@ -10,7 +10,7 @@ def change1():
     urla=url.format(i)
     #查看验证
     print urla
-    resp=resquest.get(url=urla,headers=headers)
+    resp=resquests.get(url=urla,headers=headers)
     #写为同一个文件将会被覆盖
     with open(str(i)+".txt","wb+") as f:
       f.write(resp.content)
